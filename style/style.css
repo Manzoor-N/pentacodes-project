@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    width: 300px;
+    height: 48px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100px;
+}
+
+.menu {
+    width: 40px;
+    height: 25px;
+}
+
+nav ul {
+    margin-left: 80px;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 250px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    line-height: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #252525;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+
+
+
+}
+
+.qoute {
+    width: 160px;
+    height: 60px;
+    font-size: 16px;
+    border: 1px solid;
+    font-weight: 600;
+    color: #07725B;
+    border-color: #168C72;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.container {
+    padding-left: 95px;
+    padding-right: 105px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 100vh;
+    border-radius: 90px;
+    background-color: #07725B;
+
+
+}
+
+h1 {
+    width: 100%;
+    font-style: normal;
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+
+}
+
+span {
+    font-size: 63px;
+    font-weight: 900;
+    font-style: normal;
+    color: #fff;
+
+}
+
+.col-2 {
+    width: 829px;
+    height: 400px;
+    margin-top: 10%;
+}
+
+.contact {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    width: 180px;
+    height: 55px;
+    line-height: 35px;
+    border-radius: 20px;
+    border-style: none;
+    color: #168C72;
+    margin-left: 82px;
+}
+
+.free {
+    font-size: 18px;
+    width: 250px;
+    font-weight: 500;
+    height: 55px;
+    border-radius: 20px;
+    border-style: none;
+    color: #168C72;
+    margin-left: 40px;
+}
+
+.btn {
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.img-1 {
+    position: absolute;
+    width: 1500px;
+    height: 700px;
+    left: 4px;
+    top: 140px;
+    mix-blend-mode: soft-light;
+
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    align-items: baseline;
+}
+
+.free:hover {
+    background-color: #168C72;
+    color: #fff;
+}
+
+.contact:hover {
+    background-color: #168C72;
+    color: #fff;
+}
+
+.vector-3 {
+    height: 600px;
+    width: 600px;
+    border-radius: 80px;
+}
+
+.slider {
+    position: absolute;
+    width: 90px;
+    height: 300px;
+    left: 1387px;
+    top: 430px;
+}
+.page-img{
+    display: block;
+}
+
+.cont-3{
+    column-count: 3;
+    column-gap:-20px;
+}
